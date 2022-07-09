@@ -1,0 +1,172 @@
+*{
+
+    padding: 0px;
+    margin: 0;
+    }
+    .container{
+        background-color: gray;
+        width: 100vw;
+        height: 300vh;
+        
+        
+    }
+    .div1{
+        background-color: rgb(248, 168, 21);
+        width: 97vw;
+        height: 80vh;
+        border: 5px solid white;
+        margin: 10px;
+        
+        
+        
+    
+    }
+    #favFood1{
+      text-align: center;
+      font-size: 3em;
+    }
+    #foodDescription{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    .div2{
+        background-color: rgb(243, 44, 243);
+        width: 97vw;
+        height: 80vh;
+        border: 5px solid white;
+        margin: 10px;
+        
+        
+        
+        
+    }
+    #favFood2{
+      text-align: center;
+        font-size: 3em;
+    }
+    #foodDescription2{
+        font-size: 20px;
+        text-align: center;
+    
+    
+    }
+    .div3{
+        background-color: rgb(69, 69, 246);
+        width: 97vw;
+        height: 80vh;
+        border: 5px solid white;
+        margin: 10px;
+        
+    
+        
+    }
+    #favFood3{
+      text-align: center;
+        font-size: 3em;
+        
+    }
+    #foodDescription3{
+        font-size: 20px;
+        text-align: center;
+    }
+    #titleName{
+        background-color: white;
+        width: 100vw;
+        height: 80vh;
+      
+        justify-content:center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    #titleImage{
+      width: 100vw;
+      height: 80vh;
+    }
+    #titleName h1{
+        position: absolute;
+        font-size: 50px;
+        background: rgb(168, 24, 24);
+        color: rgb(11, 129, 233);
+       
+    }
+    
+    
+    
+    
+    
+    #favFoodImage1{
+        width:50vw ;
+        height: 50vh;
+        margin-left: 350px;
+    
+        border: 3px solid white;
+        border-radius: 10px;
+        margin-top: 120px;
+        padding: 5px;
+    
+    }
+    #favFoodImage2{
+        width:50vw ;
+        height: 50vh;
+        margin-left: 350px;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin-top: 120px;
+        padding: 5px;
+    
+    
+    }
+    #favFoodImage3{
+    
+        width:50vw ;
+        height: 50vh;
+        margin-left: 350px;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin-top: 120px;
+        padding: 5px;
+    }   
+    
+    
+    
+    
+    
+    #titleName h1{
+            -moz-animation: marquee 6s linear ;
+            -webkit-animation: marquee 6s linear infinite ;
+            animation: marquee 6s linear infinite;
+          }
+        
+          @-moz-keyframes marquee {
+            0% {
+              transform: translateX(50%);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+          @-webkit-keyframes marquee {
+            0% {
+              transform: translateX(50%);
+            }
+            100% {
+              transform: translateX(-50%);
+            } 
+          }
+          @keyframes marquee {
+            0% {
+              -moz-transform: translateX(50%);
+              -webkit-transform: translateX(50%);
+              transform: translateX(50%)
+            }
+            100% {
+              -moz-transform: translateX(-50%);
+              -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+            }
+          }
